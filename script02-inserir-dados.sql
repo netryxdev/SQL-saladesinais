@@ -55,4 +55,10 @@ INSERT INTO t_usuario_mock (nm_usuario_mock, nm_email_usuario_mock, id_jogo_favo
 ('Vanessa Dias', 'vanessa********mail.com', 12),
 ('Thiago Santos', 'thiago********mail.com', 15);
 
-
+-- Inserir usuarios para testes de login na t_usuario (não é da t_usuario_mock)
+INSERT INTO t_usuario (nm_usuario, nm_email, nr_celular, nm_senha)
+VALUES
+('admin', 'admin@admin.com', '81999998888', '123123'),
+('neto', 'admin1@admin.com', '81999998885', '123123'),
+('diego', 'admin2@admin.com', '81999998886', '123123'),
+('pierre', 'admin3@admin.com', '81999998887', '123123');

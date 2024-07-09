@@ -45,6 +45,14 @@ INSERT INTO t_usuario_mock (nm_usuario_mock, nm_email_usuario_mock, id_jogo_favo
 ('Eduardo Ribeiro', 'eduardo********mail.com', 16),
 ('Elaine Costa', 'elaine********mail.com', 13),
 ('Gustavo Santos', 'gustavo********mail.com', 12),
-('Juliana Pereira', 'juliana********mail.com', 1);
+('Juliana Pereira', 'juliana********mail.com', 1),
+('Carlos Eduardo', 'carlos********mail.com', 5),
+('Patrícia Lopes', 'patrícia********mail.com', 6),
+('André Luiz', 'andré********mail.com', 7),
+('Roberta Silva', 'roberta********mail.com', 8),
+('Tatiana Souza', 'tatiana********mail.com', 10),
+('Leonardo Ferreira', 'leonardo********mail.com', 11),
+('Vanessa Dias', 'vanessa********mail.com', 12),
+('Thiago Santos', 'thiago********mail.com', 15);
 
 

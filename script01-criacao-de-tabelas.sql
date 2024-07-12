@@ -26,3 +26,12 @@ CREATE TABLE t_usuario_mock(
     nm_email_usuario_mock VARCHAR(100) NOT NULL UNIQUE,
     id_jogo_favorito INT
 );
+
+CREATE TABLE t_ranking_jogos (
+    id_ranking INT AUTO_INCREMENT PRIMARY KEY,
+    id_jogo INT NOT NULL,
+    posicao_ranking INT NOT NULL,
+    pontuacao INT NOT NULL,
+    data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_jogo) REFERENCES Jogos(id_jogo)
+);

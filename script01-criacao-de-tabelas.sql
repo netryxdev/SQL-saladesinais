@@ -27,11 +27,11 @@ CREATE TABLE t_usuario_mock(
     id_jogo_favorito INT
 );
 
-CREATE TABLE t_ranking_jogos (
+CREATE TABLE t_jogo_ranking (
     id_ranking INT AUTO_INCREMENT PRIMARY KEY,
     id_jogo INT NOT NULL,
     posicao_ranking INT NOT NULL,
-    pontuacao INT NOT NULL,
+    pontuacao DECIMAL(5,2) NOT NULL,
     data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (id_jogo) REFERENCES Jogos(id_jogo)
 );

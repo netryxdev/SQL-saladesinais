@@ -33,5 +33,5 @@ CREATE TABLE t_jogo_ranking (
     posicao_ranking INT NOT NULL,
     pontuacao DECIMAL(5,2) NOT NULL,
     data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (id_jogo) REFERENCES Jogos(id_jogo)
+    FOREIGN KEY (id_jogo) REFERENCES t_jogo (id_jogo)
 );
